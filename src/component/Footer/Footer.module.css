@@ -1,0 +1,22 @@
+.MainFooter{
+    background-color: #2C3E50;
+    text-align: center;
+}
+
+.socialContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.footerBg{
+    background-color: #374d63;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+}

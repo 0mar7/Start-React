@@ -1,0 +1,53 @@
+.about {
+    background-color:#1ABC9C;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+.icon{
+    color: gold;
+}
+
+.line{
+    width: 70px;
+    position: relative;
+    margin: auto;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 120px;
+    height: 3px;
+    background-color: white;
+    transform: translateX(-100%);
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 120px;
+    height: 3px;
+    background-color: white;
+    transform: translateX(100%);
+}
+.about p{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;
+}

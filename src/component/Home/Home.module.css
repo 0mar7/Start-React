@@ -1,0 +1,56 @@
+    .home {
+        height: 100vh;
+        background-color: #1ABC9C;
+    }
+    
+    .homeContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .homeImg {
+        width: 230px;
+        height: 230px;
+        margin-top: 50px;
+    }
+    
+    .home h1 {
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 2rem;
+    }
+    .icon{
+    color: gold;
+    }
+    
+    .line {
+        width: 70px;
+        position: relative;
+        margin: auto;
+    }
+    
+    .line::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        width: 120px;
+        height: 3px;
+        background-color: white;
+        transform: translateX(-100%);
+    }
+    
+    .line::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        width: 120px;
+        height: 3px;
+        background-color: white;
+        transform: translateX(100%);
+    }
